@@ -1,4 +1,4 @@
-# redreplier-com
+# RedReplier
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-redreplier-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://redreplier.com/
+RedReplier monitors Reddit and other public forums for buyer‑intent keywords, ranks matches by relevance, and alerts users so they can craft personalized replies. Plans start at $19 /month, with AI‑assisted draft replies and integrations for multiple platforms. The service aims to help founders and marketers capture sales opportunities directly from community conversations.
+
+**Areas:** Reddit · Lead-Generation · AI · Marketing · Sales
+
+## RedReplier on APIs.io
+
+Everything profiled for RedReplier is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/redreplier-com/](https://apis.io/providers/redreplier-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [RedReplier Alerts API](https://apis.io/apis/redreplier-com/redreplier-com-alerts-api/) — Email digest settings
+- [RedReplier Keywords API](https://apis.io/apis/redreplier-com/redreplier-com-keywords-api/) — Keyword set and its billing impact
+- [RedReplier Mentions API](https://apis.io/apis/redreplier-com/redreplier-com-mentions-api/) — Matched conversations and their review state
+- [RedReplier Websites API](https://apis.io/apis/redreplier-com/redreplier-com-websites-api/) — Sites being monitored
+- [RedReplier Workspaces API](https://apis.io/apis/redreplier-com/redreplier-com-workspaces-api/) — Workspaces reachable with this key
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [RedReplier Agentic Access](https://apis.io/agentic-access/redreplier-com/redreplier-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateWebsiteRequest](https://apis.io/schemas/redreplier-com/redreplier-com-create-website-request/)
+- [Keyword](https://apis.io/schemas/redreplier-com/redreplier-com-keyword/)
+- [KeywordBillingPreview](https://apis.io/schemas/redreplier-com/redreplier-com-keyword-billing-preview/)
+- [Mention](https://apis.io/schemas/redreplier-com/redreplier-com-mention/)
+- [UpdateWebsiteRequest](https://apis.io/schemas/redreplier-com/redreplier-com-update-website-request/)
+- [Website](https://apis.io/schemas/redreplier-com/redreplier-com-website/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Redreplier Com Context](https://apis.io/jsonld/redreplier-com/redreplier-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RedReplier API Rules](https://apis.io/rules/redreplier-com/redreplier-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RedReplier Authentication](https://apis.io/security/redreplier-com/redreplier-com-authentication/)
+- [RedReplier Domain Security](https://apis.io/security/redreplier-com/redreplier-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [RedReplier Scopes](https://apis.io/scopes/redreplier-com/redreplier-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [RedReplier Plans Pricing](https://apis.io/plans/redreplier-com/redreplier-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://redreplier.com/)
+- [Documentation](https://redreplier.com/docs)
+- [Getting started](https://redreplier.com/docs/getting-started)
+- [API reference](https://redreplier.com/llms.txt)
+- [Pricing](https://redreplier.com/pricing)
+- [Sign up](https://redreplier.com/signup)
+- [Support](https://redreplier.com/support)
+- [Blog](https://redreplier.com/blog)
+- [Terms of service](https://redreplier.com/terms)
+- [Privacy policy](https://redreplier.com/privacy)
+- [GitHub](https://github.com/TarasShyn)
+
+## API Evangelist rating
+
+**Kin Score 58.1** — strong · rubric 0.28.1 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 58.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 19.0 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 40.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
+
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/redreplier-com/](https://apis.io/providers/redreplier-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RedReplier: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/redreplier-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
